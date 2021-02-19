@@ -81,7 +81,5 @@ services:
     image: namshi/smtp
     container_name: smtp_server
     restart: unless-stopped
-    networks:
-      - public
     ports:
      - 25:25

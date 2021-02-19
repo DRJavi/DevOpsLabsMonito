@@ -47,8 +47,8 @@ scrape_configs:
 # Rule files specifies a list of files where rules or alerts are specified. 
 # Rules and alerts are read from all matching files.
 rule_files:
-#  - /etc/prometheus/rules/recording_rules/cpu.yml
-#  - /etc/prometheus/rules/alert_rules/alert_instance_down_example.yml
+  - /etc/prometheus/rules/recording_rules/cpu.yml
+  - /etc/prometheus/rules/alert_rules/alert_instance_down_example.yml
 
 # Specifies settings related to the Alertmanager.
 alerting:
